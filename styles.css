@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  color: black;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+p {
+  padding-block: 10px;
+  margin-right: 50px;
+  font-family: "Josefin Sans", sans-serif;
+}
+h2 {
+  font-size: 2rem;
+  padding-block: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+/* #first_section .section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
+  gap: 1rem;
+
+  padding-block: 4rem;
+  background: cornflowerblue;
+} */
+
+#first_section .section_wrapper {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 800px) 1fr;
+  background-image: url(bred_prod_0216795_mindre_top.jpg);
+  background-size: cover;
+  background-position: 65% 70%;
+}
+
+#first_section h1 {
+  font-size: 5rem;
+  color: beige;
+  padding-left: 10%;
+  padding-top: 20%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#second_section .section_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+/* 
+#third_section h2 {
+}
+#third_section .section_wrapper {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+} */
+
+#third_section .col {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#fourth_section .section_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.youtube {
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  justify-content: center;
+}
+footer {
+  padding: 20px;
+  display: grid;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+}
